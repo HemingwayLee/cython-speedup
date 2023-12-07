@@ -1,7 +1,6 @@
 # !/bin/bash
 
-cp mandelbrot.py mandelbrot.pyx
-cp somefunc.py somefunc.pyx
+cp ../python_code/somefunc.py somefunc.pyx
 
 python3 setup.py build_ext --inplace
 
